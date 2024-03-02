@@ -31,7 +31,7 @@ jobs:
       name: Scan a vulnerable app from the web
       steps: 
         - name: OWASP ZAP Scan
-          uses: zapproxy/action-baseline@v0.6.1
+          uses: zaproxy/action-baseline@v0.6.1
           with:
             docker_name: 'owasp/zap2docker-stable'
             target: 'http://testphp.vulnweb.com/'
